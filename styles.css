@@ -1,0 +1,160 @@
+* {padding: 0;
+    margin: 0;
+box-sizing: border-box;}
+
+body{ 
+display: border-box;
+
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+}
+
+header {position: fixed;
+background-color: black;
+height: 69px;
+width: 100%;
+z-index: 1;
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+opacity: 0.9;
+border-bottom: 1px solid seashell;}
+
+nav {display: inline-block;
+margin-right: 10px;}
+
+ul li {display: inline;
+padding-left: 15px;
+text-decoration: underline;}
+
+#logo-image {height: 50px;
+margin-left: 10px;
+display: inline-block;
+margin-top: 10px;}
+
+main {
+
+background-color: black;
+opacity: 0.9;
+margin-top: 69px;}
+
+
+.mission {margin: 0 auto;
+max-width: 1200px;
+height: 700px;
+background-image: url('images/img-mission-background.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.mission-text  {width: 100%;
+text-align: center;
+background-color: black;
+opacity: 0.9;
+padding: 15px;
+margin: 0
+}
+h2 {margin-bottom: 15px;}
+
+
+.month {max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+margin: 70px auto 15px auto;
+
+
+}
+.month > h4 {margin-bottom: 30px;}
+.cards {max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;}
+
+.card img {max-width: 300px;
+height: auto;
+margin-bottom: 10px;}
+
+
+.locations {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+margin: 70px auto 15px auto;
+max-width: 1200px;
+height: auto;
+background-image: url(images/img-locations-background.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+
+
+.locations > h2 { flex-basis: 1000px;
+text-align: center;
+margin-top: 70px;
+margin-bottom: 20px;
+
+}
+
+.location-cards {display: flex;
+gap: 20px;
+flex-wrap: wrap;
+margin-bottom: 70px;
+align-items: flex-start;
+justify-content: center;}
+
+.loc {
+
+background-color: black;
+opacity: 0.9;
+width: 300px;
+height: auto;
+line-height: 3em;
+text-align: center; 
+padding: 0 15px;}
+
+h3 {margin-top: 15px;}
+
+footer {width: 100%;
+}
+
+.contact {margin: 0 auto 20px auto;
+text-align: center;
+height: 200px;
+width: 100%;}
+
+.contact > p {line-height: 3em}
+
+footer > p{margin-left: 15px;
+margin-bottom: 40px;}
+
+a {color: inherit;}
+
+/*to center the anchor vertically on the page*/
+.anchor{
+    display: block;
+    height: 40px; 
+    margin-top: -40px; 
+    visibility: hidden;
+  }
+
+  @media (max-width: 600px) { #logo-image {display: none;}
+ header {justify-content: center;}
+    
+
+  }
+ 
+    
+  }
